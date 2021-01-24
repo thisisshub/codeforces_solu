@@ -1,0 +1,5 @@
+n = int(input())
+a = input()
+x = a.count("A")
+y = a.count("D")
+print("Anton" if x > y else ("Danik" if x < y else "Friendship"))
